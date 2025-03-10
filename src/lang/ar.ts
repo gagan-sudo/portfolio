@@ -59,6 +59,7 @@ const ar = {
     project: "المشاريع",
     contact: "اتصال",
     frontendDeveloper: "مطور الواجهة الأمامية",
+    notFound: "الصفحة غير موجودة 404 خطأ",
   }
 }
 

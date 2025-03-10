@@ -59,6 +59,7 @@ const fr = {
     project: "Projets",
     contact: "Contact",
     frontendDeveloper: "Développeur Frontend",
+    notFound: "Page non trouvée 404 Erreur",
   }
 }
 export default fr

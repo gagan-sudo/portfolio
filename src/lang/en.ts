@@ -59,7 +59,7 @@ const en = {
     project: "Projects",
     contact: "Contact",
     frontendDeveloper: "Frontend Developer",
-  
+    notFound: "Page Not Found 404 Error",
    }
 }
 

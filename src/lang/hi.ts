@@ -59,6 +59,7 @@ const hi = {
     project: "प्रोजेक्ट्स",
     contact: "संपर्क करें",
     frontendDeveloper: "फ्रंटेंड डेवलपर",
+    notFound: "पृष्ठ नहीं मिला 404 त्रुटि",
     }
 }
 export default hi
