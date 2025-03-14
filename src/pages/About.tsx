@@ -1,8 +1,6 @@
 import { useTranslation } from "react-i18next";
 
-interface AboutDescription {
-    data: string;
-  }
+type AboutDescription = string
   
 
   interface Experience {
@@ -17,7 +15,7 @@ export default function About() {
     const {t} = useTranslation()
 
      const aboutDescription: AboutDescription[] = t('aboutDescription', { returnObjects: true }) as unknown as AboutDescription[];
-  
+    console.log(aboutDescription)
 
      const experienceFrom : Experience[] = t('experienceFrom', { returnObjects: true }) as unknown as Experience[];
     
@@ -29,7 +27,7 @@ export default function About() {
                 <div className="bg-white rounded-lg shadow-lg p-8 mb-8 space-y-6" data-aos="fade-up">
                     {aboutDescription.map((data,index)=>(
                              <p className="text-lg text-gray-700 " key={index}>
-                             {data.data}
+                             {data}
                          </p>
                     ))
                     }
