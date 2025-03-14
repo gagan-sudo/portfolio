@@ -1,11 +1,11 @@
 const hi = {
-    translation: {
-        hi: "नमस्ते, मैं हूं",
-        name: "गगन",
-        description: "एक भावुक फ्रंटेंड डेवलपर, जो सुंदर और उपयोगी वेब अनुभव तैयार कर रहा है",
-        viewMyWork: "मेरा काम देखें",
-        developer: "डेवलपर",
-        aboutMe: "मेरे बारे में",
+  translation: {
+    hi: "नमस्ते, मैं हूं",
+    name: "गगन",
+    description: "एक भावुक फ्रंटेंड डेवलपर, जो सुंदर और उपयोगी वेब अनुभव तैयार कर रहा है",
+    viewMyWork: "मेरा काम देखें",
+    developer: "डेवलपर",
+    aboutMe: "मेरे बारे में",
     aboutDescription: [
       "मैं एक फ्रंटेंड डेवलपर हूं, जो आधुनिक वेब एप्लिकेशन बना रहा हूं। मेरे वेब विकास की यात्रा सुंदर उपयोगकर्ता इंटरफेस बनाने के जुनून के साथ शुरू हुई और आधुनिक फ्रंटेंड प्रौद्योगिकियों की गहरी समझ में विकसित हुई है।",
       "मैं React.js और इसके पारिस्थितिकी तंत्र में विशेषज्ञता रखता हूं, जिसमें स्केलेबल और मैन्टेनबल एप्लिकेशन बनाने पर जोर है। मुझे उपयोगकर्ता अनुभव, पहुँच, और साफ, कुशल कोड लिखने का जुनून है।",
@@ -26,7 +26,7 @@ const hi = {
     contactInformation: "संपर्क जानकारी",
     emailAddress: "gaganbhangu34484@gmail.com",
     address: "मोहाली, पंजाब, भारत",
-    nme: "नाम",  
+    nme: "नाम",
     email: "ईमेल",
     message: "संदेश",
     successMessage: "आपका संदेश सफलतापूर्वक भेज दिया गया है!",
@@ -60,6 +60,19 @@ const hi = {
     contact: "संपर्क करें",
     frontendDeveloper: "फ्रंटेंड डेवलपर",
     notFound: "पृष्ठ नहीं मिला 404 त्रुटि",
-    }
+    enterName: "कृपया अपना नाम दर्ज करें",
+    enterEmail: "कृपया अपना ईमेल दर्ज करें",
+    enterMessage: "कृपया संदेश दर्ज करें",
+    nameIsRequired: "नाम आवश्यक है",
+    minimumName5Required: "कम से कम 5 अक्षर आवश्यक हैं",
+    maximumName50Allowed: "अधिकतम 50 अक्षर की अनुमति है",
+    emailIsRequired: "ईमेल आवश्यक है",
+    validEmailAddress: "एक मान्य ईमेल पता दर्ज करें",
+    messageIsRequired: "संदेश आवश्यक है",
+    messageSendSuccessfully: "संदेश सफलतापूर्वक भेजा गया!",
+    tryAgainMessageIsFailed: "फिर से प्रयास करें संदेश विफल हो गया...",
+    minimumMessage50CharacterRequired: "कम से कम 50 अक्षर आवश्यक हैं",
+    maximumMessage500CharacterAllowed: "अधिकतम 500 अक्षर की अनुमति है",
+  }
 }
 export default hi

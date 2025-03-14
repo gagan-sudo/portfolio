@@ -60,6 +60,19 @@ const ar = {
     contact: "اتصال",
     frontendDeveloper: "مطور الواجهة الأمامية",
     notFound: "الصفحة غير موجودة 404 خطأ",
+    enterName: "الرجاء إدخال اسمك",
+    enterEmail: "الرجاء إدخال بريدك الإلكتروني",
+    enterMessage: "الرجاء إدخال رسالة",
+    nameIsRequired: "الاسم مطلوب",
+    minimumName5Required: "الحد الأدنى 5 أحرف مطلوب",
+    maximumName50Allowed: "الحد الأقصى 50 حرف مسموح",
+    emailIsRequired: "البريد الإلكتروني مطلوب",
+    validEmailAddress: "أدخل عنوان بريد إلكتروني صالح",
+    messageIsRequired: "الرسالة مطلوبة",
+    messageSendSuccessfully: "تم إرسال الرسالة بنجاح!",
+    tryAgainMessageIsFailed: "حاول مرة أخرى فشل إرسال الرسالة...",
+    minimumMessage50CharacterRequired: "الحد الأدنى 50 حرف مطلوب",
+    maximumMessage500CharacterAllowed: "الحد الأقصى 500 حرف مسموح",
   }
 }
 

@@ -60,7 +60,20 @@ const en = {
     contact: "Contact",
     frontendDeveloper: "Frontend Developer",
     notFound: "Page Not Found 404 Error",
-   }
+    enterName: "Please enter your name",
+    enterEmail: 'Please enter your email',
+    enterMessage: 'Please enter message',
+    nameIsRequired: "Name is required",
+    minimumName5Required: "Minimum 5 character are required",
+    maximumName50Allowed: "Maximum 50 character are allowed",
+    emailIsRequired: "Email is required",
+    validEmailAddress: "Enter a valid email address",
+    messageIsRequired: "Message is required",
+    messageSendSuccessfully: "Message send successfully!",
+    tryAgainMessageIsFailed: "Try again message is failed...",
+    minimumMessage50CharacterRequired: "Minimum 50 character are required",
+    maximumMessage500CharacterAllowed: "Maximum 500 character are allowed",
+   } 
 }
 
 export default en

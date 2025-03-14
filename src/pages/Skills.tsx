@@ -21,9 +21,12 @@ import { useTranslation } from "react-i18next";
         {
           category: t('skills')[0]?.category,
           items: [
+            { name: 'JavaScript', level: 90 },
             { name: 'React.js', level: 90 },
-            { name: 'React Native', level: 60 },
             { name: 'TypeScript', level: 75 },
+            { name: 'React Native', level: 60 },
+            { name: 'Material-UI', level: 90 },
+            { name: 'Firebase', level: 80 },
             { name: 'Next.js', level: 50 },
             { name: 'Tailwind CSS', level: 90 },
           ],

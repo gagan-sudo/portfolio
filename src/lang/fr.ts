@@ -1,5 +1,5 @@
 const fr = {
-    translation : {
+  translation: {
     hi: "Salut, je suis",
     name: "Gagan",
     description: "Un développeur frontend passionné qui crée des expériences web belles et fonctionnelles",
@@ -26,7 +26,7 @@ const fr = {
     contactInformation: "Informations de contact",
     emailAddress: "gaganbhangu34484@gmail.com",
     address: "Mohali, Punjab, Inde",
-    nme: "Nom",  
+    nme: "Nom",
     email: "Email",
     message: "Message",
     successMessage: "Votre message a été envoyé avec succès!",
@@ -60,6 +60,19 @@ const fr = {
     contact: "Contact",
     frontendDeveloper: "Développeur Frontend",
     notFound: "Page non trouvée 404 Erreur",
+    enterName: "Veuillez entrer votre nom",
+    enterEmail: "Veuillez entrer votre email",
+    enterMessage: "Veuillez entrer un message",
+    nameIsRequired: "Le nom est requis",
+    minimumName5Required: "Minimum 5 caractères requis",
+    maximumName50Allowed: "Maximum 50 caractères autorisés",
+    emailIsRequired: "L'email est requis",
+    validEmailAddress: "Entrez une adresse email valide",
+    messageIsRequired: "Le message est requis",
+    messageSendSuccessfully: "Message envoyé avec succès!",
+    tryAgainMessageIsFailed: "Réessayez le message a échoué...",
+    minimumMessage50CharacterRequired: "Minimum 50 caractères requis",
+    maximumMessage500CharacterAllowed: "Maximum 500 caractères autorisés",
   }
 }
 export default fr

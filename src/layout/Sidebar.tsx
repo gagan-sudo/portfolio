@@ -1,7 +1,10 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Menu, X, Home, User, Code2, Briefcase, Mail, Github, Linkedin, Twitter } from 'lucide-react';
-import ProfilePic from "../assets/profile_pic.webp";
+import { Menu, X, Home, User, Code2, Briefcase, Mail, Github, Linkedin, 
+  // Twitter
+ } from 'lucide-react';
+// import ProfilePic from "../assets/profile_pic.webp";
+import ProfilePic from "../assets/profile.JPG";
 import LanguageSelector from '../components/LanguageSelector';
 import { useTranslation } from 'react-i18next';
 import useWebDir from '../hooks/useWebDir';
@@ -78,7 +81,7 @@ export default function Sidebar() {
           <div className="p-6 border-t flex justify-between items-center">
             <div className={`flex justify-between space-x-4 mt-2`}>
               <a
-                href=""
+                href="https://github.com/gagan-sudo"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`text-gray-600 hover:text-gray-900 ${!dir?'ml-3':''}`}
@@ -86,21 +89,21 @@ export default function Sidebar() {
                 <Github size={20} />
               </a>
               <a
-                href=""
+                href="https://www.linkedin.com/in/gagandeep-singh-b7971623b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-900"
               >
                 <Linkedin size={20} />
               </a>
-              <a
+              {/* <a
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`text-gray-600 hover:text-gray-900 `}
               >
                 <Twitter size={20} />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
