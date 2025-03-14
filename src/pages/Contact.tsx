@@ -1,10 +1,9 @@
-import { Mail, Phone, MapPin } from 'lucide-react';
-import { useRef, useState } from 'react';
+import { Mail, MapPin } from 'lucide-react';
+import {  useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { useTranslation } from 'react-i18next';
 import {
   isValidInput,
-  isValidEmail,
   maxLength,
 } from '../utils/validation';
 import * as Yup from 'yup';
@@ -36,7 +35,7 @@ export default function Contact() {
   // }
 
   // Reference for the form
-  const form = useRef<HTMLFormElement | null>(null);
+  // const form = useRef<HTMLFormElement | null>(null);
 
   const formik = useFormik({
     initialValues: {
@@ -62,14 +61,29 @@ export default function Contact() {
     }),
     onSubmit: async (values) => {
       setMessageSent(true)
-      const form = document.getElementById('contact-form');
+      // const form = document.getElementById('contact-form');
+    //   const form: HTMLElement | null = document.querySelector("#contact-form")
+    //   // Populate the form with values
+    //   if (form) {
+    //     (form as HTMLFormElement).name.value = values.name;
+    //     (form as HTMLFormElement).email.value = values.email;
+    //     (form as HTMLFormElement).message.value = values.message;
+    // }
 
-      // Populate the form with values
-      form.name.value = values.name;
-      form.email.value = values.email;
-      form.message.value = values.message;
+    const form: HTMLFormElement | null = document.querySelector("#contact-form");
+if (form) {
+    const nameInput = form.querySelector<HTMLInputElement>("input[name='name']");
+    const emailInput = form.querySelector<HTMLInputElement>("input[name='email']");
+    const messageInput = form.querySelector<HTMLTextAreaElement>("textarea[name='message']");
 
-      emailjs
+    if (nameInput) nameInput.value = values.name;
+    if (emailInput) emailInput.value = values.email;
+    if (messageInput) messageInput.value = values.message;
+}
+
+
+
+     if(form){ emailjs
         .sendForm(import.meta.env.VITE_EMAILJS_SERVICE_ID,
           import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
           form,
@@ -77,11 +91,12 @@ export default function Contact() {
         .then(
           () => {
             toast.success(t("messageSendSuccessfully"));
+            formik.resetForm()
           },
           (error) => {
             toast.error(t("tryAgainMessageIsFailed"), error.text);
           }
-        );
+        );}
 
       setTimeout(() => {
         setMessageSent(false)
@@ -132,7 +147,7 @@ export default function Contact() {
           </div>
 
           <form
-            ref={form}
+            // ref={form}
             onSubmit={formik.handleSubmit}
             id='contact-form'
             className="space-y-6"

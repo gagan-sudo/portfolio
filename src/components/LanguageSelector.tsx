@@ -1,3 +1,4 @@
+import { ChangeEvent } from 'react'
 import { useTranslation } from 'react-i18next'
 import useWebDir from '../hooks/useWebDir'
 
@@ -13,7 +14,7 @@ function LanguageSelector() {
         {code: "ar", lang: "اللغة العربية"},
     ]
 
-    const handleLangChange = (e) => {
+    const handleLangChange = (e:ChangeEvent<HTMLSelectElement>) => {
         i18n.changeLanguage(e.target.value)
     }
 

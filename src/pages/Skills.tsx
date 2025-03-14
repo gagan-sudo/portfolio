@@ -1,25 +1,23 @@
 import { useTranslation } from "react-i18next";
 
+interface Skill {
+  category: string
+}
+
   
   export default function Skills() {
 
     const {t} = useTranslation()
 
-    // const translate = {
-    //     skillsExpertise: "Skills & Expertise",
-    //     skills: [
-    //         {
-    //           category: "Frontend",
-    //         },
-    //         {
-    //           category: "Tools & Others",
-    //         },
-    //       ]
-    // }
+    const skillsDummy: Skill[] = t('skills',{returnObjects: true}) as Skill[]
+
+    const skillss = skillsDummy.map((skill)=>({
+       category : skill.category
+    }))
 
     const skills = [
         {
-          category: t('skills')[0]?.category,
+          category:skillss[0].category ,
           items: [
             { name: 'JavaScript', level: 90 },
             { name: 'React.js', level: 90 },
@@ -32,7 +30,7 @@ import { useTranslation } from "react-i18next";
           ],
         },
         {
-          category: t('skills')[1]?.category,
+          category: skillss[1].category,
           items: [
             { name: 'Git', level: 85 },
             { name: 'Redux-Toolkit', level: 75 },

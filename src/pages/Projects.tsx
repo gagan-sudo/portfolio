@@ -1,7 +1,7 @@
 
 import { useTranslation } from 'react-i18next';
-import quill from '../assets/react.svg'
-import task from '../assets/react.svg'
+// import quill from '../assets/react.svg'
+// import task from '../assets/react.svg'
 
 
 
@@ -25,24 +25,24 @@ export default function Projects() {
   //   ]
   // }
 
-  const projects = [
-      {
-        title: t('projects')[0]?.title,
-        description: t('projects')[0]?.description,
-        image: quill,
-        technologies: ['React', 'TypeScript', 'Marked','React-Split','Tailwind CSS'],
-        demoUrl: 'https://quillmark.vercel.app',
-        githubUrl: 'https://github.com/becodewala-youtube/QuillMark',
-      },
-      {
-        title: t('projects')[1]?.title,
-        description: t('projects')[1]?.description,
-        image: task,
-        technologies: ['React', 'TypeScript', 'Zustand','html2pdf','Tailwind CSS'],
-        demoUrl: 'https://tasktrek-becodewala.vercel.app',
-        githubUrl: 'https://github.com/becodewala-youtube/TaskTrek',
-      },
-    ];
+  // const projects = [
+  //     {
+  //       title: t('projects')[0]?.title,
+  //       description: t('projects')[0]?.description,
+  //       image: quill,
+  //       technologies: ['React', 'TypeScript', 'Marked','React-Split','Tailwind CSS'],
+  //       demoUrl: 'https://quillmark.vercel.app',
+  //       githubUrl: 'https://github.com/becodewala-youtube/QuillMark',
+  //     },
+  //     {
+  //       title: t('projects')[1]?.title,
+  //       description: t('projects')[1]?.description,
+  //       image: task,
+  //       technologies: ['React', 'TypeScript', 'Zustand','html2pdf','Tailwind CSS'],
+  //       demoUrl: 'https://tasktrek-becodewala.vercel.app',
+  //       githubUrl: 'https://github.com/becodewala-youtube/TaskTrek',
+  //     },
+  //   ];
 
   return (
     <div className="min-h-screen p-6 py-20">
