@@ -1,48 +1,34 @@
 
 import { useTranslation } from 'react-i18next';
-// import quill from '../assets/react.svg'
-// import task from '../assets/react.svg'
+import watchs from '../assets/watchs.png'
+import zentry from '../assets/zentry.png'
 
 
 
 export default function Projects() {
 
-  const {t} = useTranslation()
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const {t} = useTranslation() as any
 
-  // const translate = {
-  //   myProjects: "My Projects",
-  //   liveDemo: "Live Demo",
-  //   gitHub: "GitHub",
-  //   projects: [
-  //     {
-  //       title: 'QuillMark',
-  //       description: 'A seamless Markdown editing experience designed for developers, writers, and content creators, combining functionality, accessibility, and aesthetic appeal.',
-  //     },
-  //     {
-  //       title: 'TaskTrek',
-  //       description: 'A modern, feature-rich application designed to help users plan, organize, and visualize project milestones effectively, combining accessibility, intuitive design, and exportable roadmaps.',
-  //     },
-  //   ]
-  // }
 
-  // const projects = [
-  //     {
-  //       title: t('projects')[0]?.title,
-  //       description: t('projects')[0]?.description,
-  //       image: quill,
-  //       technologies: ['React', 'TypeScript', 'Marked','React-Split','Tailwind CSS'],
-  //       demoUrl: 'https://quillmark.vercel.app',
-  //       githubUrl: 'https://github.com/becodewala-youtube/QuillMark',
-  //     },
-  //     {
-  //       title: t('projects')[1]?.title,
-  //       description: t('projects')[1]?.description,
-  //       image: task,
-  //       technologies: ['React', 'TypeScript', 'Zustand','html2pdf','Tailwind CSS'],
-  //       demoUrl: 'https://tasktrek-becodewala.vercel.app',
-  //       githubUrl: 'https://github.com/becodewala-youtube/TaskTrek',
-  //     },
-  //   ];
+  const projects = [
+      {
+        title: t('projects')[0]?.title,
+        description: t('projects')[0]?.description,
+        image: watchs,
+        technologies: ['NextJs', 'TypeScript','Tailwind CSS','Toast'],
+        demoUrl: 'https://watchs-eight.vercel.app/',
+        githubUrl: 'https://github.com/gagan-sudo/watchs',
+      },
+      {
+        title: t('projects')[1]?.title,
+        description: t('projects')[1]?.description,
+        image: zentry,
+        technologies: ['React', 'TypeScript','gsap','Tailwind CSS'],
+        demoUrl: 'https://zentry-clone-oojh.onrender.com/',
+        githubUrl: 'https://github.com/gagan-sudo/zentry_clone',
+      },
+    ];
 
   return (
     <div className="min-h-screen p-6 py-20">
@@ -51,7 +37,7 @@ export default function Projects() {
           {t('myProjects')}
         </h2>
 
-        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div
               key={project.title}
@@ -79,7 +65,7 @@ export default function Projects() {
                 </div>
                 <div className="flex space-x-4">
                   <a
-                    // href={project.demoUrl}
+                    href={project.demoUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex-1 text-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
@@ -87,7 +73,7 @@ export default function Projects() {
                     {t('liveDemo')}
                   </a>
                   <a
-                    // href={project.githubUrl}
+                    href={project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex-1 text-center px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
@@ -98,7 +84,7 @@ export default function Projects() {
               </div>
             </div>
           ))}
-        </div> */}
+        </div> 
       </div>
     </div>
   );

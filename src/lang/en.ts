@@ -36,12 +36,12 @@ const en = {
     gitHub: "GitHub",
     projects: [
       {
-        title: 'QuillMark',
-        description: 'A seamless Markdown editing experience designed for developers, writers, and content creators, combining functionality, accessibility, and aesthetic appeal.',
+        title: 'Watchs',
+        description: 'This Next.js project is a watches website where users can seamlessly add details of watches and view the information. It focuses on creating a functional and user-friendly platform for showcasing and managing watch collections. Perfect for enthusiasts or businesses looking to organize watch data efficiently!',
       },
       {
-        title: 'TaskTrek',
-        description: 'A modern, feature-rich application designed to help users plan, organize, and visualize project milestones effectively, combining accessibility, intuitive design, and exportable roadmaps.',
+        title: 'Zentry_Clone',
+        description: 'Zentry Landing Page Clone – A sleek, high-energy gaming-themed web landing page built with React, Tailwind CSS, and GSAP. It features bold typography, smooth animations, and dynamic UI elements, recreating the immersive look and feel of the original. Leveraging GSAP for fluid transitions, the page enhances user engagement with scroll-based effects and interactive motion graphics.',
       },
     ],
     skillsExpertise: "Skills & Expertise",

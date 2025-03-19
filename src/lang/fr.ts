@@ -36,12 +36,12 @@ const fr = {
     gitHub: "GitHub",
     projects: [
       {
-        title: 'QuillMark',
-        description: 'Une expérience de rédaction Markdown transparente conçue pour les développeurs, écrivains et créateurs de contenu, combinant fonctionnalité, accessibilité et attrait esthétique.',
+        title: 'Watchs',
+        description: "Ce projet Next.js est un site Web sur les montres où les utilisateurs peuvent facilement ajouter des détails sur les montres et consulter les informations. Il se concentre sur la création d'une plateforme fonctionnelle et conviviale pour afficher et gérer des collections de montres. Idéal pour les passionnés ou les entreprises souhaitant organiser efficacement les données sur les montres !",
       },
       {
-        title: 'TaskTrek',
-        description: 'Une application moderne et riche en fonctionnalités conçue pour aider les utilisateurs à planifier, organiser et visualiser les étapes des projets de manière efficace, combinant accessibilité, design intuitif et feuilles de route exportables.',
+        title: 'Zentry_Clone',
+        description: "Clone de la page d'accueil de Zentry – Une page d'accueil web élégante et énergique sur le thème du gaming, construite avec React, Tailwind CSS et GSAP. Elle comprend une typographie audacieuse, des animations fluides et des éléments d'interface dynamiques, recréant l'aspect immersif et l'expérience de l'original. Grâce à GSAP, cette page améliore l'engagement des utilisateurs avec des effets basés sur le défilement et des graphiques animés interactifs.",
       },
     ],
     skillsExpertise: "Compétences et expertise",
