@@ -58,6 +58,7 @@ const en = {
     skill: "Skills",
     project: "Projects",
     contact: "Contact",
+    resume: "Resume",
     frontendDeveloper: "Frontend Developer",
     notFound: "Page Not Found 404 Error",
     enterName: "Please enter your name",

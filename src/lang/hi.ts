@@ -58,6 +58,7 @@ const hi = {
     skill: "कौशल",
     project: "प्रोजेक्ट्स",
     contact: "संपर्क करें",
+    resume: "रिज़्यूमे",
     frontendDeveloper: "फ्रंटेंड डेवलपर",
     notFound: "पृष्ठ नहीं मिला 404 त्रुटि",
     enterName: "कृपया अपना नाम दर्ज करें",

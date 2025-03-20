@@ -58,6 +58,7 @@ const ar = {
     skill: "المهارات",
     project: "المشاريع",
     contact: "اتصال",
+    resume: "السيرة الذاتية",
     frontendDeveloper: "مطور الواجهة الأمامية",
     notFound: "الصفحة غير موجودة 404 خطأ",
     enterName: "الرجاء إدخال اسمك",
