@@ -21,6 +21,7 @@
     "react-dom": "^19.0.0",
     "react-i18next": "^15.4.1",
     "react-router-dom": "^7.3.0",
+    "rollup": "^4.39.0",
     "sonner": "^2.0.1",
     "yup": "^1.6.1"
   },
