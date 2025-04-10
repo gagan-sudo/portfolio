@@ -5,8 +5,9 @@ import {
   // Twitter
 } from 'lucide-react';
 // import ProfilePic from "../assets/profile_pic.webp";
-import ProfilePic from "../assets/profile.JPG";
-import CV from '../assets/helo.pdf'
+// import ProfilePic from "../assets/profile_pic.svg";
+import ProfilePic from "../assets/profile_pic.jpg";
+import CV from '../assets/Gagandeep_Singh_Resume.pdf'
 import LanguageSelector from '../components/LanguageSelector';
 import { useTranslation } from 'react-i18next';
 import useWebDir from '../hooks/useWebDir';
